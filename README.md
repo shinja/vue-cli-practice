@@ -19,3 +19,14 @@ npm run build
 ```
 npm run lint
 ```
+
+
+## Branch feature/loading-sequence
+
+```
+HelloWorld.vue
+App.vue
+xxxx
+store
+main.js
+```

@@ -31,6 +31,8 @@
 </template>
 
 <script>
+/* eslint-disable */
+console.log('HelloWorld.vue');
 export default {
   name: 'HelloWorld',
   props: {

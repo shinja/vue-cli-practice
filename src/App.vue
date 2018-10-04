@@ -6,6 +6,8 @@
 </template>
 
 <script>
+/* eslint-disable */
+console.log('App.vue');
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
