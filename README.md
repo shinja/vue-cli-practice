@@ -74,7 +74,7 @@ https://prettier.io/docs/en/comparison.html
 2. https://juejin.im/post/5b27a326e51d45588a7dac57
 3. https://prettier.io/docs/en/configuration.html
 
-```
+```json
 // prettier default settings.
 
 module.exports = {
@@ -88,6 +88,15 @@ module.exports = {
   "parser": "babylon" //代码的解析引擎，默认为babylon，与babel相同。
 }
 
+```
+
+#### prettier & prettyhtml CLI
+
+```bash
+npm install -D prettier @starptech/prettyhtml
+
+yarn run prettyhtml '{src,public}/**/*.{html,vue}' # it ignores the.prettierignore file.
+yarn run prettier --write './**/*'
 ```
 
 ### Vetur
